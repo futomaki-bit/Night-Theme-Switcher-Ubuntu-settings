@@ -19,6 +19,7 @@ While the extension might work, some apps don't switch between dark and light mo
 **Sunrise:**
 ```bash
 gsettings set org.gnome.desktop.interface gtk-theme Yaru
+gsettings set org.gnome.desktop.interface icon-theme Yaru
 gsettings set org.gnome.desktop.interface color-scheme prefer-light
 gsettings reset org.gnome.shell.ubuntu color-scheme
 ```
@@ -26,8 +27,9 @@ gsettings reset org.gnome.shell.ubuntu color-scheme
 **Sunset:**
 ```bash
 gsettings set org.gnome.desktop.interface gtk-theme Yaru-dark
+gsettings set org.gnome.desktop.interface icon-theme Yaru-dark
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark 
-gsettings reset org.gnome.shell.ubuntu color-scheme  
+gsettings reset org.gnome.shell.ubuntu color-scheme
 ```
 
 ### Optional:
